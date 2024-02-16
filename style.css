@@ -1,0 +1,227 @@
+/* .top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+            height: 60px; 
+            background-color: #f8f9fa; 
+            padding: 0 20px; 
+}.top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+            height: 60px; 
+            background-color: #f8f9fa; 
+            padding: 0 20px; 
+}
+h3{
+    text-align: center;
+    
+}
+.mid .form-container{
+    display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding-top: 30px;
+  
+}
+.mid .form-group{
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+.mid .submit-button{
+    background-color: #101410; 
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.mid .submit-button:hover {
+    background-color: #273128; 
+  }
+  
+  .success {
+    border: 2px solid green; /* Green border for valid selection */
+  /* }
+  
+  
+  .error {
+    border: 2px solid red; /* Red border for error indication */
+  /* } */
+  /* #mid .user-details-container{
+    background-color: #101410;
+    margin-top: 2rem;
+}
+ */ */
+
+ #userDetails img {
+    display: block; /* Make images block-level to respect text-align of parent */
+    max-width: 200px; /* Your existing max-width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.mid h3{
+    text-align: center;
+    
+}
+.mid .form-container{
+    display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding-top: 30px;
+  
+}
+.mid .form-group{
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+.mid .submit-button{
+    background-color: #101410; 
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.mid .submit-button:hover {
+    background-color: #273128; 
+  }
+  
+  .success {
+    border: 2px solid green; /* Green border for valid selection */
+  }
+  
+  
+  .error {
+    border: 2px solid red; /* Red border for error indication */
+  }
+  #mid .user-details-container{
+    background-color: #101410;
+    margin-top: 2rem;
+}
+
+
+ #userDetails img {
+    display: block; /* Make images block-level to respect text-align of parent */
+    max-width: 200px; /* Your existing max-width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+
+#userDetailsTable {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 20px; /* Add some space above the table */
+}
+
+#show-password
+{
+  width : 20%;
+  height: fit-content;
+  transform: translateY(-50%);
+  position: relative;
+}
+#show-password img{
+  height: 50%;
+  width: 50%;
+}
+
+#userDetailsTable th, #userDetailsTable td {
+  border: 1px solid #ddd; /* Light grey border */
+  padding: 8px; /* Padding around text */
+  text-align: left; /* Align text to the left */
+}
+
+#userDetailsTable th {
+  background-color: #f2f2f2; /* Light grey background */
+  color: #333; /* Dark text color for contrast */
+}
+
+#userDetailsTable tr:nth-child(even) {
+  background-color: #f9f9f9; /* Zebra striping for rows */
+}
+
+#userDetailsTable img {
+  width: auto; /* Auto-width to maintain aspect ratio */
+  max-height: 100px; /* Limit image height to keep the table tidy */
+}
+
+
+.mid {
+  /* Layout and Box Model */
+  width: 80%; /* Adjust based on layout */
+  margin: 20px auto; /* Center the container with automatic margins */
+  padding: 20px; /* Add some space inside the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+
+  /* Typography */
+  font-family: 'Arial', sans-serif; /* Choose a font-family */
+  color: #333; /* Text color */
+  text-align: left; /* Center text */
+
+  /* Colors and Borders */
+  background-color: #f9f9f9; /* Light background for the container */
+  border-radius: 8px; /* Rounded corners */
+
+  /* Responsive */
+  max-width: 600px; /* Maximum width for larger screens */
+}
+
+/* Example of a responsive breakpoint for smaller screens */
+@media (max-width: 768px) {
+  .mid {
+    width: 90%; /* More width for smaller screens */
+    padding: 15px; /* Adjust padding */
+    margin: 10px auto; /* Adjust margin */
+  }
+}
+
+
+.mid {
+  /* Layout and Box Model */
+  width: 80%; /* Adjust based on layout */
+  margin: 20px auto; /* Center the container with automatic margins */
+  padding: 20px; /* Add some space inside the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+
+  /* Typography */
+  font-family: 'Arial', sans-serif; /* Choose a font-family */
+  color: #333; /* Text color */
+  text-align: left; /* Center text */
+
+  /* Colors and Borders */
+  background-color: #f9f9f9; /* Light background for the container */
+  border-radius: 8px; /* Rounded corners */
+
+  /* Responsive */
+  max-width: 600px; /* Maximum width for larger screens */
+}
+
+/* Example of a responsive breakpoint for smaller screens */
+@media (max-width: 768px) {
+  .mid {
+    width: 90%; /* More width for smaller screens */
+    padding: 15px; /* Adjust padding */
+    margin: 10px auto; /* Adjust margin */
+  }
+} */
+
+.user-details {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.user-details div {
+  margin: 5px 0;
+}
+
+img {
+  border-radius: 4px;
+}
+
